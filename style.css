@@ -1,0 +1,181 @@
+<head>
+    <base href="http://localhost/">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+/* GLOBAL ---------------------------------------------------------- */
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* CONTAINER ------------------------------------------------------- */
+.dashboard {
+    max-width: 1050px;
+    margin: 25px auto;
+    padding: 15px;
+}
+
+/* CARD ------------------------------------------------------------- */
+.card {
+    background: #fff;
+    padding: 18px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+}
+
+/* TITLE ------------------------------------------------------------ */
+h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+h3 {
+    margin-top: 0;
+    color: #444;
+}
+
+/* BUTTONS ---------------------------------------------------------- */
+.btn-submit {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.btn-submit:hover {
+    background: #45a049;
+}
+
+.btn-cancel {
+    background: #d9534f;
+    color: white;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-cancel:hover {
+    background: #c9302c;
+}
+
+.btn {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background: #0069d9;
+}
+
+/* LOGOUT ----------------------------------------------------------- */
+.logout-btn {
+    background: #444;
+    color: white;
+    padding: 7px 11px;
+    border-radius: 4px;
+    float: right;
+    margin-top: -40px;
+}
+
+.logout-btn:hover {
+    background: #000;
+}
+
+/* FORM ------------------------------------------------------------- */
+input, select, textarea {
+    width: 100%;
+    padding: 9px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* STATUS ----------------------------------------------------------- */
+.status {
+    padding: 4px 7px;
+    border-radius: 4px;
+    color: white;
+    font-size: 13px;
+}
+
+.status.diproses { background: #ff9800; }
+.status.disetujui { background: #4CAF50; }
+.status.ditolak { background: #f44336; }
+
+/* TABLE ------------------------------------------------------------ */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.table th {
+    background: #eef0f5;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* CALENDAR ISOLATION ---------------------------------------------- */
+#calendar {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* SMALL TEXT ------------------------------------------------------- */
+.small {
+    font-size: 13px;
+    color: #555;
+}
+
+/* RESPONSIVE ------------------------------------------------------- */
+@media(max-width: 768px) {
+    .dashboard {
+        padding: 10px;
+    }
+
+    .logout-btn {
+        float: none;
+        display: inline-block;
+        margin: 10px 0;
+    }
+}
+.notif-btn {
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 22px;
+    position: relative;
+    color: #333;
+}
+
+.notif-badge {
+    background: red;
+    color: white;
+    padding: 2px 6px;
+    font-size: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: -8px;
+    right: -12px;
+}
