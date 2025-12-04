@@ -1,7 +1,7 @@
 --
  **SIBORU – Sistem Booking Ruangan**
 
-SIBORU adalah aplikasi pemesanan ruangan berbasis web yang digunakan untuk mempermudah proses booking ruangan, verifikasi oleh admin/panitia, serta menampilkan bukti booking dan rating ruangan.
+SIBORU adalah Sistem pemesanan ruangan berbasis web yang digunakan untuk mempermudah proses booking ruangan, verifikasi oleh admin/panitia, serta menampilkan bukti booking dan rating ruangan.
 
 ---
 
@@ -10,8 +10,8 @@ SIBORU adalah aplikasi pemesanan ruangan berbasis web yang digunakan untuk mempe
 **KELOMPOK 5**
 
 * Diva Angeliana (701230051)
-* khaila aura nurhadi (701230029)
-* putri yani anjali (701230052)
+* Khaila aura nurhadi (701230029)
+* Putri yani anjali (701230052)
 
 ---
 
