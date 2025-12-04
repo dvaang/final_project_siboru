@@ -68,29 +68,32 @@ SIBORU adalah Sistem pemesanan ruangan berbasis web yang digunakan untuk memperm
 
 ```
 siboru/
+│── api/
+│   ├── auth.php
+│   ├── booking.php      
+│   ├── contacts.php
+│   ├── ruangan.php
+│   
 │── config/
 │   ├── database.php      # Koneksi database
 │   ├── session.php       # Helper session & auth
 │
 │── pages/
-│   ├── dashboard.php     # Dashboard utama user
-│   ├── admin.php         # Dashboard admin/panitia
-│   ├── booking.php       # Form booking
-│   ├── panitia.php       # Halaman persetujuan booking
-│   ├── history.php       # Riwayat booking
-│   ├── bukti_booking.php # Bukti booking
-│   ├── rating.php        # Rating ruangan
-│   ├── notifikasi.php    # Daftar notifikasi
-│
-│── process/
-│   ├── booking_store.php # Proses simpan booking
-│   ├── approve.php       # Persetujuan oleh admin
-│   ├── reject.php        # Penolakan booking
+│   ├── dashboard.php     
+│   ├── admin.php        
+│   ├── booking.php       
+│   ├── panitia.php      
+│   ├── history.php      
+│   ├── bukti_booking.php
+│   ├── rating.php       
+│   ├── notifikasi.php
+│   ├── calendar.php
+│   ├── login.php
+│   ├── logout.php
+│   ├── contacts.php        
 │
 │── public/
 │   ├── index.php
-│   ├── login.php
-│   ├── logout.php
 │   ├── style.css
 │
 └── README.md
