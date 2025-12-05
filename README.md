@@ -9,9 +9,9 @@ SIBORU adalah Sistem pemesanan ruangan berbasis web yang digunakan untuk memperm
 
 **KELOMPOK 5**
 
-* Diva Angeliana (701230051)
-* Khaila aura nurhadi (701230029)
-* Putri yani anjali (701230052)
+* Diva Angeliana (701230051) Jobdesk : bertanggung jawab pada proses pengembangan inti website (coding),  mengupload record demo website ke youtube, membuat README.md.
+* Khaila aura nurhadi (701230029) Jobdesk :  merevisi dokumen backlog, menghosting website menggunakan infinityfree, membuat record demo website, mentesting website, membuat use case dan arsitektur diagram.
+* Putri yani anjali (701230052) obdesk : kmembuat dokumen backlog, mendesain ui menggunakan figma, membuat activity diagram, membuat ppt final project dan mengedit README.md.
 
 ---
 
